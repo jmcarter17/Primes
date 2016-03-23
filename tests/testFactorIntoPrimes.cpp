@@ -72,7 +72,3 @@ TEST(SumOfFactors, Sum_is_computed_properly){
     checkSumForNumber(9, 6);
     checkSumForNumber(2*3*5*13*31, 2+3+5+13+31);
 }
-
-TEST(SumOfFactors, Sum_for_up_to_a_number_is_computed_properly){
-    pf.factor(2);
-}
