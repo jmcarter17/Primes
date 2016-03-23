@@ -5,13 +5,16 @@
 #ifndef PRIMES_PRIMELISTER_H
 #define PRIMES_PRIMELISTER_H
 
+#include <list>
+
 
 class PrimeLister {
 public:
-    void listPrimes(int number);
-    std::vector<int> getList();
+    void sieve(int number);
+    std::list<int> getList();
+    unsigned long sum();
 private:
-    std::vector<int> listOfPrimes;
+    std::list<int> listOfPrimes;
 };
 
 
