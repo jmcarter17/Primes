@@ -18,7 +18,7 @@ void PrimeLister::sieve(int number) {
             if ((*j)%(*i) == 0)
                 listOfPrimes.erase(j++);
             else
-                j++;
+                ++j;
         }
     }
 }

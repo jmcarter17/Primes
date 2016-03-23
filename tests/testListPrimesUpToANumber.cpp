@@ -32,16 +32,16 @@ TEST(PrimeLister, List_Of_Primes){
 }
 
 TEST(PrimeLister, Sum_Of_Primes){
-//    pl.sieve(10);
-//    CHECK_EQUAL(17, pl.sum());
-//    pl.sieve(100);
-//    CHECK_EQUAL(1060, pl.sum());
-//    pl.sieve(1000);
-//    CHECK_EQUAL(76127, pl.sum());
-//    pl.sieve(10000);
-//    CHECK_EQUAL(5736396, pl.sum());
-//    pl.sieve(100000);
-//    CHECK_EQUAL(454396537, pl.sum());
+    pl.sieve(10);
+    CHECK_EQUAL(17, pl.sum());
+    pl.sieve(100);
+    CHECK_EQUAL(1060, pl.sum());
+    pl.sieve(1000);
+    CHECK_EQUAL(76127, pl.sum());
+    pl.sieve(10000);
+    CHECK_EQUAL(5736396, pl.sum());
+    pl.sieve(100000);
+    CHECK_EQUAL(454396537, pl.sum());
 //    pl.sieve(2000000);
 //    CHECK_EQUAL(142913828922, pl.sum());
 }
